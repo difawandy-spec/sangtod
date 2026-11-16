@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+downloads/
+hasil*.txt
+out/
+
+# Sesi & kredensial Telegram (JANGAN di-commit!)
+*.session
+*.session-journal
+
+# Thumbnail sementara hasil ffmpeg
+*.mp4.jpg

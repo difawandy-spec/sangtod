@@ -1,0 +1,13 @@
+# --- Ekstraktor video (main.py) ---
+requests>=2.31.0
+
+# --- Uploader Telegram (kirim.py) ---
+telethon>=1.34.0
+pymediainfo>=6.1.0
+tqdm>=4.66.0
+
+# Opsional — hanya dibutuhkan untuk mode --browser (player dinamis / JS-only)
+# playwright>=1.44.0
+
+# Catatan: kirim.py juga butuh ffmpeg (paket sistem, bukan pip):
+#   sudo apt-get install -y ffmpeg mediainfo
